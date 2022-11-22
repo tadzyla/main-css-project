@@ -1,3 +1,17 @@
+
+:root {
+    --dark-bg-colour: #1F2937;
+    --btn-colour: #3882F6;
+    --light-text-colour: #E5E7EB;
+    --light-colour: #F9FAF8;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 @font-face {
     font-family: "Roboto";
     src: url(fonts/Roboto-Regular.ttf) format(truetype);
@@ -18,7 +32,86 @@
     src: url(fonts/Roboto-LightItalic.ttf) format(truetype);
 }
 
-h1 {
-    color: blue;
+
+/* Hero section */
+
+.container_width {
+    width: 1500px;
+    margin: auto;
+}
+
+.hero_section {
+    background-color: var(--dark-bg-colour);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    margin-top: 2rem;
+}
+
+.navbar a {
+    font-size: 18px;
     font-family: "Roboto";
+    text-decoration: none;
+    color: var(--light-text-colour);
+}
+
+.logo img {
+    width: 80px;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    justify-items: space-around;
+    gap: 20px;
+    padding-right: 20px;
+}
+
+.hero_content {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding-bottom: 5rem;
+    margin-top: 5rem;
+}
+
+.hero_text {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero_text h1 {
+    font-size: 48px;
+    color: var(--light-colour);
+    font-family: "Roboto-extra-bold";
+    line-height: 1.5;
+}
+
+.hero_text p {
+    font-size: 18px;
+    color: var(--light-text-colour);
+    font-family: "Roboto";
+    line-height: 1.5;
+}
+
+.hero_text button {
+    width: 200px;
+    padding: 8px 16px;
+    background-color: var(--btn-colour);
+    border-radius: 10px;
+    color: var(--light-text-colour);
+    border: none;
+    cursor: pointer;
+}
+
+.hero_image img {
+    width: 500px;
+    height: auto;
 }
