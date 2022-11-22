@@ -55,7 +55,7 @@ nav {
 
 .navbar a {
     font-size: 18px;
-    font-family: "Roboto";
+    font-family: "Roboto" sans-serif;
     text-decoration: none;
     color: var(--light-text-colour);
 }
@@ -90,18 +90,20 @@ nav {
 .hero_text h1 {
     font-size: 48px;
     color: var(--light-colour);
-    font-family: "Roboto-extra-bold";
+    font-family: "Roboto-extra-bold" sans-serif;
     line-height: 1.5;
 }
 
 .hero_text p {
     font-size: 18px;
     color: var(--light-text-colour);
-    font-family: "Roboto";
+    font-family: "Roboto" sans-serif;
     line-height: 1.5;
 }
 
 .hero_text button {
+    font-size: 18px;
+    font-family: "Roboto" sans-serif;
     width: 200px;
     padding: 8px 16px;
     background-color: var(--btn-colour);
