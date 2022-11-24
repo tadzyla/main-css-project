@@ -35,7 +35,7 @@ nav {
 
 .navbar a {
     font-size: 18px;
-    font-family: 'Roboto' sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
     color: var(--light-text-colour);
 }
@@ -70,20 +70,20 @@ nav {
 .hero_text h1 {
     font-size: 48px;
     color: var(--light-colour);
-    font-family: "Roboto" sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.5;
 }
 
 .hero_text p {
     font-size: 18px;
     color: var(--light-text-colour);
-    font-family: "Roboto" sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.5;
 }
 
 .hero_text button {
     font-size: 18px;
-    font-family: "Roboto" sans-serif;
+    font-family: 'Roboto', sans-serif;
     width: 200px;
     padding: 8px 16px;
     background-color: var(--btn-colour);
@@ -109,7 +109,7 @@ nav {
 .information_section h2 {
     text-align: center;
     font-size: 36px;
-    font-family: "Roboto" sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: var(--dark-bg-colour);
 }
 
@@ -135,6 +135,8 @@ nav {
 
 .info_container p {
     text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
 }
 
 
@@ -158,11 +160,13 @@ nav {
 
 .quote_text {
     font-size: 36px;
-    font-family: "Roboto" sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .quote_author {
     font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
 }
 
 
@@ -193,7 +197,7 @@ nav {
 .cta_text h3 {
     color: var(--light-text-colour);
     font-weight: 900;
-    font-family: 'Roboto' sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 24px;
 }
 
@@ -214,6 +218,7 @@ nav {
     border: 2px solid var(--light-text-colour);
     border-radius: 10px;
     color: var(--light-text-colour);
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -229,4 +234,5 @@ footer {
 
 footer h4 {
     color: var(--light-text-colour);
+    font-family: 'Roboto', sans-serif;
 }
