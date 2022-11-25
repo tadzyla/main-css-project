@@ -13,6 +13,7 @@
 }
 
 
+
 /* Hero section */
 
 .container_width {
@@ -72,6 +73,7 @@ nav {
     color: var(--light-colour);
     font-family: 'Roboto', sans-serif;
     line-height: 1.5;
+    font-weight: 900;
 }
 
 .hero_text p {
@@ -110,6 +112,7 @@ nav {
     text-align: center;
     font-size: 36px;
     font-family: 'Roboto', sans-serif;
+    font-weight: 900;
     color: var(--dark-bg-colour);
 }
 
@@ -136,7 +139,8 @@ nav {
 .info_container p {
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    font-weight: lighter;
+    font-size: 18px;
+    font-weight: 300;
 }
 
 
@@ -161,12 +165,13 @@ nav {
 .quote_text {
     font-size: 36px;
     font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
 }
 
 .quote_author {
-    font-weight: 900;
     font-family: 'Roboto', sans-serif;
-    font-weight: 100;
+    font-weight: 900;
 }
 
 
@@ -219,6 +224,7 @@ nav {
     border-radius: 10px;
     color: var(--light-text-colour);
     font-family: 'Roboto', sans-serif;
+    cursor: pointer;
 }
 
 
